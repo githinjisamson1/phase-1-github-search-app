@@ -18,7 +18,7 @@ function displayUserInformation(data) {
             <div>
             <img src="${item.avatar_url}" style="height: 40px; width: 40px; border-radius: 50%"/>
             </div>
-            <h5>${item.login}</h5>
+            <h5 style="cursor:pointer">${item.login}</h5>
             <div>
             <a href="${item.url}">Link to profile</a>
             </div>
